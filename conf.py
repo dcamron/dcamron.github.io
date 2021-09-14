@@ -57,3 +57,11 @@ html_theme = 'insegel'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+
+myst_enable_extensions = [
+    'replacements',
+    'colon_fence',
+    'html_image'
+]
+
+myst_heading_anchors = 2
